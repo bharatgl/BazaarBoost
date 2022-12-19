@@ -50,7 +50,7 @@ const Header = () => {
                 <div>
                   <Link className="d-flex align-items-center gap-10 text-white">
                     <img src="/images/compare.svg" alt="compare" />
-                    <p  className="mb-0">
+                    <p className="mb-0">
                       Compare
                       <br />
                       Products
@@ -92,8 +92,52 @@ const Header = () => {
         </div>
       </header>
 
-
-      <header className="header-bottom py-3"></header>
+      <header className="header-bottom py-3">
+        <div className="container-xxl">
+          <div className="row">
+            <div className="col-12">
+              <div className="menu-bottom d-flex align-items-center gap-30">
+                <div class="dropdown">
+                  <button
+                    class="btn btn-secondary dropdown-toggle bg-transparent border-0 gap-15 d-flex align-items-center"
+                    type="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    <img src="images/menu.svg" alt="" />
+                    <span className="me-5 d-inline-block">Shop Categories</span>
+                  </button>
+                  <ul class="dropdown-menu">
+                    <li>
+                      <Link className=" dropdown-item text-white ml-5" to="">
+                        Action
+                      </Link>
+                    </li>
+                    <li>
+                      <Link className=" dropdown-item text-white ml-5" to="">
+                        Another action
+                      </Link>
+                    </li>
+                    <li>
+                      <Link className=" dropdown-item text-white ml-5" to="">
+                        Something else here
+                      </Link>
+                    </li>
+                  </ul>
+                </div>
+                <div className="menu-links">
+                  <div className="d-flex align-items-center gap-15">
+                    <NavLink to="/">Home</NavLink>
+                    <NavLink to="/">Our Store</NavLink>
+                    <NavLink to="/">Blogs</NavLink>
+                    <NavLink to="/contact">Contact</NavLink>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
     </>
   );
 };
