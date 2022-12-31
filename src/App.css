@@ -12,6 +12,7 @@
   --color-febd69: #febd69;
   --color-232f3e: #232f3e;
   --color-bf4800: #bf4800;
+  --color-f5f5f7: #f5f5f7;
 }
 /* body {
   font-family: "Rubik", sans-serif;
@@ -154,12 +155,9 @@ footer .input-group-text {
   color: var(--color-131921);
 }
 
-
-.small-banner{
+.small-banner {
   width: 49%;
 }
-
-
 
 .small-banner-content {
   top: 25%;
@@ -194,5 +192,10 @@ footer .input-group-text {
   letter-spacing: 0.4;
   color: var(--color-131921);
 }
-
+/* Home wrapper 2 */
+  .home-wrapper-2{
+    background-color: var(--color-f5f5f7);
+    
+  }
+/* Home wrapper 2 ends */
 /* Home Page Ends */
