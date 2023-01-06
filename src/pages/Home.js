@@ -287,7 +287,6 @@ const Home = () => {
           </div>
         </div>
       </section>
-
       <section className="special-wrapper py-5 home-wrapper-2">
         <div className="container-xxl">
           <div className="row">
@@ -296,6 +295,7 @@ const Home = () => {
             </div>
           </div>
           <div className="row ">
+            <SpecialProduct />
             <SpecialProduct />
             <SpecialProduct />
             <SpecialProduct />
