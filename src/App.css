@@ -42,6 +42,9 @@ a {
   box-shadow: none;
   border-color: inherit;
 }
+.gap-5 {
+  gap: 5px;
+}
 .gap-10 {
   gap: 10px;
 }
@@ -323,7 +326,7 @@ footer .input-group-text {
 
 .product-card .product-details p.price {
   font-size: 16px;
-  color: var(--color-1c1c1b) ;
+  color: var(--color-1c1c1b);
   font-weight: 600;
 }
 .action-bar {
@@ -336,5 +339,18 @@ footer .input-group-text {
   right: 15px;
 }
 /* Product Card Ends here */
+
+/* Special products */
+.special-product-card {
+  padding: 20px 10px;
+  border-radius: 10px;
+  background-color: white;
+}
+
+.special-product-card .badge{
+  background-color: #fc353c !important;
+}
+
+/* Special products ends here */
 
 /* Home Page Ends */
