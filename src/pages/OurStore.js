@@ -7,11 +7,6 @@ import ProductCard from "../components/ProductCard";
 const OurStore = () => {
   const [grid, setGird] = useState(4);
 
-  const gridSetter = (i) => {
-    setGird(i);
-  };
-  alert(grid);
-
   return (
     <>
       <Meta title={"Our Store"} />
@@ -272,7 +267,7 @@ const OurStore = () => {
                     <div className="d-flex gap-10 align-items-center grid">
                       <img
                         onClick={() => {
-                          setGird(4);
+                          setGird(3);
                         }}
                         src="images/gr4.svg"
                         className="d-block img-fluid"
@@ -280,7 +275,7 @@ const OurStore = () => {
                       />
                       <img
                         onClick={() => {
-                          setGird(3);
+                          setGird(4);
                         }}
                         src="images/gr3.svg"
                         className="d-block img-fluid"
@@ -288,7 +283,7 @@ const OurStore = () => {
                       />
                       <img
                         onClick={() => {
-                          setGird(2);
+                          setGird(6);
                         }}
                         src="images/gr2.svg"
                         className="d-block img-fluid"
@@ -296,7 +291,7 @@ const OurStore = () => {
                       />
                       <img
                         onClick={() => {
-                          setGird(1);
+                          setGird(12);
                         }}
                         src="images/gr.svg"
                         className="d-block img-fluid"
@@ -307,7 +302,9 @@ const OurStore = () => {
                 </div>
               </div>
               <div className="products-list pb-5">
-                <ProductCard grid={grid} />
+               <div className="d-flex gap-10 flex-wrap">
+               <ProductCard grid={grid} />
+               </div>
               </div>
             </div>
           </div>
