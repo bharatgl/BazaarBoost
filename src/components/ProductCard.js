@@ -8,11 +8,8 @@ const ProductCard = (props) => {
 
   return (
     <>
-    
       <div
-        className={`${
-          location.pathname === "/store" ? `gr-${grid}` : "col-3"
-        }`}
+        className={`${location.pathname === "/store" ? `gr-${grid}` : "col-3"}`}
       >
         <Link className="product-card position-relative">
           <div className="wishlist-icon position-absolute">
@@ -49,6 +46,12 @@ const ProductCard = (props) => {
               fullIcon={<i className="fa fa-star"></i>}
               activeColor="#ffd700"
             />
+            <p className="description">
+              At vero eos et accusamus et iusto odio dignissimos ducimus qui
+              blanditiis praesentium voluptatum deleniti atque corrupti quos
+              dolores et quas molestias excepturi sint occaecati cupiditate non
+              provident, similique sunt...
+            </p>
             <p className="price">$100.00</p>
           </div>
           <div className="action-bar position-absolute">
@@ -67,9 +70,7 @@ const ProductCard = (props) => {
         </Link>
       </div>
       <div
-        className={`${
-          location.pathname === "/store" ? `gr-${grid}` : "col-3"
-        }`}
+        className={`${location.pathname === "/store" ? `gr-${grid}` : "col-3"}`}
       >
         <Link className="product-card position-relative">
           <div className="wishlist-icon position-absolute">
@@ -106,6 +107,13 @@ const ProductCard = (props) => {
               fullIcon={<i className="fa fa-star"></i>}
               activeColor="#ffd700"
             />
+
+            <p className="description">
+              At vero eos et accusamus et iusto odio dignissimos ducimus qui
+              blanditiis praesentium voluptatum deleniti atque corrupti quos
+              dolores et quas molestias excepturi sint occaecati cupiditate non
+              provident, similique sunt...
+            </p>
             <p className="price">$100.00</p>
           </div>
           <div className="action-bar position-absolute">
@@ -123,7 +131,6 @@ const ProductCard = (props) => {
           </div>
         </Link>
       </div>
-     
     </>
   );
 };
