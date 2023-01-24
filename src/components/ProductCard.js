@@ -46,7 +46,7 @@ const ProductCard = (props) => {
               fullIcon={<i className="fa fa-star"></i>}
               activeColor="#ffd700"
             />
-            <p className="description">
+            <p className={`description ${grid === 12 ? "d-block" : "d-none"}`}>
               At vero eos et accusamus et iusto odio dignissimos ducimus qui
               blanditiis praesentium voluptatum deleniti atque corrupti quos
               dolores et quas molestias excepturi sint occaecati cupiditate non
@@ -108,7 +108,7 @@ const ProductCard = (props) => {
               activeColor="#ffd700"
             />
 
-            <p className="description">
+            <p className={`description ${grid === 12 ? "d-block" : "d-none"}`}>
               At vero eos et accusamus et iusto odio dignissimos ducimus qui
               blanditiis praesentium voluptatum deleniti atque corrupti quos
               dolores et quas molestias excepturi sint occaecati cupiditate non
