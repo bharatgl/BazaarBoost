@@ -549,7 +549,8 @@ footer .input-group-text {
   border-radius: 10px;
 }
 
-.compare-product-card .cross {
+.compare-product-card .cross,
+.whishlist-card .cross {
   top: 15px;
   right: 15px;
   width: 25px;
@@ -557,14 +558,16 @@ footer .input-group-text {
   cursor: pointer;
 }
 
-.compare-products-details h5.title {
+.compare-products-details h5.title,
+.whishlist-card h5.title {
   font-size: 15px;
   line-height: 22px;
   font-weight: 700;
   color: var(--color-1c1c1b);
 }
 
-.compare-products-details h6.price {
+.compare-products-details h6.price,
+.whishlist-card h6.price {
   font-size: 16px;
   line-height: 22px;
   font-weight: 600;
