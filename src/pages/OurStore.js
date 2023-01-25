@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import ReactStars from "react-rating-stars-component";
 import BreadCrumb from "../components/BreadCrumb";
+import Color from "../components/Color";
 import Meta from "../components/Meta";
 import ProductCard from "../components/ProductCard";
 
@@ -81,52 +82,7 @@ const OurStore = () => {
                   <h5 className="sub-title">Colors</h5>
 
                   <div>
-                    <ul className="colors ps-0">
-                      <li></li>
-                      <li></li>
-                      <li></li>
-                      <li></li>
-                      <li></li>
-                      <li></li>
-                      <li></li>
-                      <li></li>
-                      <li></li>
-                      <li></li>
-                      <li></li>
-                      <li></li>
-                      <li></li>
-                      <li></li>
-                      <li></li>
-                      <li></li>
-                      <li></li>
-                      <li></li>
-                      <li></li>
-                      <li></li>
-                      <li></li>
-                      <li></li>
-                      <li></li>
-                      <li></li>
-                      <li></li>
-                      <li></li>
-                      <li></li>
-                      <li></li>
-                      <li></li>
-                      <li></li>
-                      <li></li>
-                      <li></li>
-                      <li></li>
-                      <li></li>
-                      <li></li>
-                      <li></li>
-                      <li></li>
-                      <li></li>
-                      <li></li>
-                      <li></li>
-                      <li></li>
-                      <li></li>
-                      <li></li>
-                      <li></li>
-                    </ul>
+                    <Color />
                   </div>
                   <h5 className="sub-title">Size</h5>
 
@@ -302,9 +258,9 @@ const OurStore = () => {
                 </div>
               </div>
               <div className="products-list pb-5">
-               <div className="d-flex gap-10 flex-wrap">
-               <ProductCard grid={grid} />
-               </div>
+                <div className="d-flex gap-10 flex-wrap">
+                  <ProductCard grid={grid} />
+                </div>
               </div>
             </div>
           </div>
