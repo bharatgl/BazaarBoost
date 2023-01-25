@@ -38,11 +38,7 @@ const Footer = () => {
             <div className="col-4">
               <h4 className="text-white  mb-4">Contact Us</h4>
               <div>
-                <address className="text-white fs-6">
-                  h. no. 4, Near Sai Mandir,
-                  <br /> Ludhiana, Punjab <br />
-                  Pincode: 141013
-                </address>
+                <address className="text-white fs-6">Ludhiana, Punjab</address>
                 <a
                   href="tel:+91 8475522698"
                   className="mt-3 d-block mb-1 text-white"
@@ -56,17 +52,26 @@ const Footer = () => {
                   mailto : info@BazaarBoost.com
                 </a>
                 <div className="socila-icons d-flex align-items-center gap-30 mt-4">
-                  <a className="text-white" href="https://www.linkedin.com/in/bharatgl/">
-                    <BsLinkedin className="fs-4"/>
+                  <a
+                    className="text-white"
+                    href="https://www.linkedin.com/in/bharatgl/"
+                  >
+                    <BsLinkedin className="fs-4" />
                   </a>
-                  <a className="text-white" href="https://www.instagram.com/thelifeofbharatgl">
-                    <BsInstagram className="fs-4"/>
+                  <a
+                    className="text-white"
+                    href="https://www.instagram.com/thelifeofbharatgl"
+                  >
+                    <BsInstagram className="fs-4" />
                   </a>
-                  <a className="text-white" href="https://www.youtube.com/@bharatgl">
-                    <BsYoutube className="fs-4"/>
+                  <a
+                    className="text-white"
+                    href="https://www.youtube.com/@bharatgl"
+                  >
+                    <BsYoutube className="fs-4" />
                   </a>
                   <a className="text-white" href="https://github.com/bharatgl">
-                    <BsGithub className="fs-4"/>
+                    <BsGithub className="fs-4" />
                   </a>
                 </div>
               </div>
