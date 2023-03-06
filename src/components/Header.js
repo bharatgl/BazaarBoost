@@ -80,7 +80,7 @@ const Header = () => {
                   >
                     <img src="/images/user.svg" alt="user" />
                     <p className="mb-0">
-                      Login
+                      Log in | Sign up
                       <br />
                       My Account
                     </p>
