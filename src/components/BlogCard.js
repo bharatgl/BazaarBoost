@@ -9,7 +9,7 @@ const BlogCard = () => {
           <img src="images/blog-1.jpg" className="img-fluid w-100" alt="blog" />
         </div>
         <div className="blog-content">
-          <p classname="date">05 january 2023</p>
+          <p className="date">05 january 2023</p>
           <h5 className="title">A beautiful sunday morning renaissance</h5>
           <p className="desc">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa,
@@ -17,7 +17,7 @@ const BlogCard = () => {
             dolores, nisi explicabo, veritatis, accusamus adipisci molestiae?
             Enim a beatae unde voluptate!
           </p>
-          <Link to="/" className="button">
+          <Link to="/blog/:id" className="button">
             Read More
           </Link>
         </div>

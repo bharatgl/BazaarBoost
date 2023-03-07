@@ -32,7 +32,7 @@ const Header = () => {
               </h2>
             </div>
             <div className="col-5">
-              <div class="input-group">
+              <div className="input-group">
                 <input
                   type="text"
                   className="form-control py-2"
@@ -109,9 +109,9 @@ const Header = () => {
           <div className="row">
             <div className="col-12">
               <div className="menu-bottom d-flex align-items-center gap-30">
-                <div class="dropdown">
+                <div className="dropdown">
                   <button
-                    class="btn btn-secondary dropdown-toggle bg-transparent border-0 gap-15 d-flex align-items-center"
+                    className="btn btn-secondary dropdown-toggle bg-transparent border-0 gap-15 d-flex align-items-center"
                     type="button"
                     data-bs-toggle="dropdown"
                     aria-expanded="false"
@@ -119,7 +119,7 @@ const Header = () => {
                     <img src="images/menu.svg" alt="" />
                     <span className="me-5 d-inline-block">Shop Categories</span>
                   </button>
-                  <ul class="dropdown-menu">
+                  <ul className="dropdown-menu">
                     <li>
                       <Link className=" dropdown-item text-white ml-5" to="">
                         Action
